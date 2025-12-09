@@ -9,11 +9,11 @@
 <script type="text/javascript" src="{{" js/auto-complete.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end
     }}"></script>
 <script type="text/javascript">
-    { { if hugo.IsMultilingual } }
+    {{ if hugo.IsMultilingual }}
     var baseurl = "{{.Site.BaseURL}}{{.Site.LanguagePrefix}}";
-    { { else } }
+    {{ else }}
     var baseurl = "{{.Site.BaseURL}}";
-    { { end } }
+    {{ end }}
 </script>
 <script type="text/javascript" src="{{" js/search.js" | relURL}}{{ if $assetBusting }}?{{ now.Unix }}{{ end
     }}"></script>

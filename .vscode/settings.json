@@ -1,2 +1,15 @@
 {
+	"editor.formatOnSave": false,
+	"editor.insertSpaces": false,
+	"editor.defaultFormatter": null,
+	"[html]": {
+		"editor.formatOnSave": false,
+		"editor.defaultFormatter": null
+	},
+	"[markdown]": {
+		"editor.formatOnSave": false
+	},
+	"prettier.enable": false,
+	"html.format.indentInnerHtml": false,
+	"html.format.endWithNewline": false
 }
